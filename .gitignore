@@ -1,0 +1,16 @@
+# System files
+*.DS_Store
+
+# Eclipse files
+*.project
+*.settings
+*.classpath
+*.metadata
+*.recommenders
+
+# bin files
+*bin
+
+# Random Sandbox and folders
+Alex
+Sandbox
