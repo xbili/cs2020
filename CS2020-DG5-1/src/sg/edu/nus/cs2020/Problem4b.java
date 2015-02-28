@@ -11,8 +11,12 @@ public class Problem4b {
 			}
 		} catch (Exception e) {
 			System.out.println("Array out of bounds!");
-		} catch (NullPointerException e) {
+		} 
+		/* This line will not be executed because the previous block already caught ALL of the
+		 * exceptions. 
+		catch (NullPointerException e) {
 			System.out.println("Null pointer!");
 		}
+		*/
 	}
 }
