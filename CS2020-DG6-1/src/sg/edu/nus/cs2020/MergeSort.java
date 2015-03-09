@@ -17,7 +17,7 @@ public class MergeSort {
 	}
 
 	private void mergesort(int low, int high) {
-		// check if low is smaller then high, if not then the array is sorted
+		// Check if low is smaller then high, if not then the array is sorted
 		if (low < high) {
 			// Get the index of the element which is in the middle
 			int middle = low + (high - low) / 2;
