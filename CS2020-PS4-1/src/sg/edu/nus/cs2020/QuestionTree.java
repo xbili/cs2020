@@ -46,11 +46,14 @@ public class QuestionTree extends QuestionTreeBase {
 	 */
 	@Override
 	public void buildTree(ArrayList<QuestionObject> objects) {
+		// Error handling
+		if (objects.isEmpty() || objects == null) System.out.println("Building an empty tree...");
+		
 		// Sort the list of objects first
 		Collections.sort(objects);
 		
 		// Pointer to the current node
-		TreeNode<String> curr;
+		TreeNode<String> currNode;
 		
 		// Iterate through the entire list of objects
 		for (QuestionObject object : objects) {
@@ -66,21 +69,21 @@ public class QuestionTree extends QuestionTreeBase {
 			}
 			
 			// Reset the current node pointer to the root of the tree
-			curr = m_root;
+			currNode = m_root;
 
 			// On the first iteration of the program
-			if (curr == null) {
+			if (currNode == null) {
 				// Generates the first branch of the tree
-				curr = generateBranch(object, properties);
+				currNode = generateBranch(object, properties);
 				
 				// Updates the root as the first node of the branch generated
-				m_root = curr;
+				m_root = currNode;
 				
 				// Iterate current node pointer to the last node in the branch
-				curr = lastBranchNode(curr);
+				currNode = lastBranchNode(currNode);
 				
 				// Set the object as the right leaf
-				setRightLeaf(curr, object);
+				setRightLeaf(currNode, object);
 				
 				// Move on to the next object, ignoring the while loop below
 				continue;
@@ -89,45 +92,45 @@ public class QuestionTree extends QuestionTreeBase {
 			// While curr is not a leaf, so that each node can be iterated through.
 			// The first branch is already created, so there should be no instances where curr is a leaf unless
 			// an object is added to the branch, which will break the loop.
-			while (!curr.isLeaf()) {
+			while (!currNode.isLeaf()) {
 				// If the object has no more properties left, means the object should be added all the way
 				// at the left from the current node.
 				if (properties.isEmpty()) {
 					
 					// Adds the leaf to the left bottom of the tree
-					addToLeftBottom(curr, object);
+					addToLeftBottom(currNode, object);
 					
 					// Break the loop
 					break;
 				}
 				
 				// If value of current node is equals to the current property
-				if (object.containsProperty(curr.getValue())) {
+				if (object.containsProperty(currNode.getValue())) {
 					
 					// If the right child of the current node is empty
-					if (curr.getRight() == null) {
+					if (currNode.getRight() == null) {
 						
 						// Add a branch to the right child of the node
-						addRightBranch(curr, object, properties);
+						addRightBranch(currNode, object, properties);
 						
 					} else { // If the right child of the current node is NOT empty 
 						
 						// Set the current node as the right child
-						curr = curr.getRight();
+						currNode = currNode.getRight();
 						
 						// Remove the checked property
-						removeCheckedProperty(curr, properties);
+						removeCheckedProperty(currNode, properties);
 					}
 					
 				} else { // If value of current node is NOT equals to the current property
 					
 					// If the left child of the current node is empty
-					if (curr.getLeft() == null) {	
-						addLeftBranch(curr, object, properties);
+					if (currNode.getLeft() == null) {	
+						addLeftBranch(currNode, object, properties);
 					} else { // If the left child of the current node is NOT empty
 						
 						// Set the current node as the left child
-						curr = curr.getLeft();
+						currNode = currNode.getLeft();
 					}
 				}
 			}
@@ -291,7 +294,7 @@ public class QuestionTree extends QuestionTreeBase {
 	
 	/**
 	 * Handles the case when we run out of properties for an object. 
-	 * We will add the object as a leaf to bottom of the tree.
+	 * We will add the object as a leaf to the left bottom of the tree.
 	 * 
 	 * @param curr
 	 * @param object
@@ -381,7 +384,7 @@ public class QuestionTree extends QuestionTreeBase {
 	 * Test cases: Similiar to the example provided in the pset itself, but the tree is built differently.
 	 * Binary search tree property still holds.
 	 * 
-	 * To check the tree, uncomment the code below "Debug purposes" in buildTree
+	 * To check the tree build process, uncomment the code under "Debug purposes" in buildTree method
 	 * 
 	 * @param args
 	 */
@@ -444,5 +447,4 @@ public class QuestionTree extends QuestionTreeBase {
 		QuestionTree test_tree = new QuestionTree();
 		test_tree.buildTree(test_1);
 	}
-	
 }
