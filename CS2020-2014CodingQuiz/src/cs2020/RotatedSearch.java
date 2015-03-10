@@ -3,7 +3,7 @@ package cs2020;
 /**
  * Class containing the static searchMax method for finding the 
  * maximum in a sorted, but rotated, array.
- * @author gilbert
+ * @author Xu Bili
  *
  */
 public class RotatedSearch {
@@ -19,10 +19,32 @@ public class RotatedSearch {
 	 * rotated, i.e., the smallest item is not in array slot 0 and the sequence
 	 * wraps around the end of the array.
 	 */
-	public static T searchMax() {
+	public static <T extends Comparable<T>> T searchMax(T[] arr) {
+		if (arr == null) System.err.println("Null array.");
 		
+		int start = 0,
+			end = arr.length - 1;
+		
+		while (start < end) {
+			int middle = (start + end) / 2;
+			if (end - start == 1) {
+				// Return the larger element
+				if (arr[start].compareTo(arr[end]) > 0) {
+					end = start;
+				} else {
+					start = end;
+				}
+			} else if (arr[start].compareTo(arr[middle]) > 0) {
+				end = middle;
+			} else if (arr[start].compareTo(arr[middle]) < 0) {
+				start = middle;
+			} else  {
+				start = middle;
+			}
+		}
+		
+		return arr[start];
 	}
-	
 
 	
 	public static void main(String[] args){
