@@ -8,6 +8,9 @@
 *.metadata
 *.recommenders
 
+# Test cases
+*.in
+
 # bin files
 *bin
 
