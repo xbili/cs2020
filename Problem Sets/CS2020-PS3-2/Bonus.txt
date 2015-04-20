@@ -1,0 +1,15 @@
+Problem 2 (Bonus):
+
+We initialize an array, highway, of highwayLength length, and then initialize each value in the array as false. In addition, we increment a counter (which is an integer value) called coverage to store the current coverage of the highway.
+
+Each index on highway will correspond to a position that can: 
+1. Contain a tower/Not contain a tower
+2. Be covered/not be covered
+
+Whenever a new tower is added, we add that tower into the position as reflected on the highway array, replacing the false with true. For every value changed, we increment coverage by one. Also, take note that we will not change current the true values to false, hence we won't count overlaps more than once in the coverage counter.
+
+Since the coverage is stored in a variable, getCoverage() simply has to return that value, which runs in O(1).
+
+To add a tower, we have to first find the correct position, which can be done by binary search in O(log T) time, where T is the length of the highway.
+
+A caveat to this solution would be that if the highway is very long, it may take too much space for a very large array.

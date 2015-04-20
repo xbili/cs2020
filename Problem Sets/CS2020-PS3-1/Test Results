@@ -1,0 +1,319 @@
+------------SorterA DATA--------------
+Testing on a sorted array of length 10
+Time taken: 4.6758E-5
+Testing on a sorted array of length 100
+Time taken: 4.4876E-5
+Testing on a sorted array of length 1000
+Time taken: 6.3667E-4
+Testing on a sorted array of length 10000
+Time taken: 0.001897048
+Testing on a sorted array of length 100000
+Time taken: 0.004261484
+Testing on an almost sorted array of length 10
+Time taken: 1.1158E-5
+Testing on an almost sorted array of length 100
+Time taken: 1.1946E-5
+Testing on an almost sorted array of length 1000
+Time taken: 2.14965E-4
+Testing on an almost sorted array of length 10000
+Time taken: 3.67738E-4
+Testing on an almost sorted array of length 100000
+Time taken: 0.007771847
+Testing on array of length 10
+Time taken: 5.134E-6
+Testing on array of length 100
+Time taken: 1.50399E-4
+Testing on array of length 1000
+Time taken: 0.004584791
+Testing on array of length 10000
+Time taken: 0.23544466
+Testing on array of length 100000
+Time taken: 20.397583
+Testing on worst case array of length 10
+Time taken: 1.606E-6
+Testing on worst case array of length 100
+Time taken: 3.012E-5
+Testing on worst case array of length 1000
+Time taken: 0.003163611
+Testing on worst case array of length 10000
+Time taken: 0.3072063
+Testing on worst case array of length 100000
+Time taken: 31.010271
+Testing on array of repeated elements of length 10
+Time taken: 1.372E-6
+Testing on array of repeated elements of length 100
+Time taken: 1.491E-6
+Testing on array of repeated elements of length 1000
+Time taken: 4.994E-6
+Testing on array of repeated elements of length 10000
+Time taken: 4.3059E-5
+Testing on array of repeated elements of length 100000
+Time taken: 4.30382E-4
+STABLE
+----------SorterA END---------
+------------SorterB DATA--------------
+Testing on a sorted array of length 10
+Time taken: 1.16238E-4
+Testing on a sorted array of length 100
+Time taken: 0.003125487
+Testing on a sorted array of length 1000
+Time taken: 0.009690678
+Testing on a sorted array of length 10000
+Time taken: 0.08629883
+Testing on a sorted array of length 100000
+Time taken: 0.7215347
+Testing on an almost sorted array of length 10
+Time taken: 3.0989E-5
+Testing on an almost sorted array of length 100
+Time taken: 5.39259E-4
+Testing on an almost sorted array of length 1000
+Time taken: 0.005426788
+Testing on an almost sorted array of length 10000
+Time taken: 0.057118915
+Testing on an almost sorted array of length 100000
+Time taken: 0.66136724
+Testing on array of length 10
+Time taken: 3.0147E-5
+Testing on array of length 100
+Time taken: 2.54979E-4
+Testing on array of length 1000
+Time taken: 0.003508341
+Testing on array of length 10000
+Time taken: 0.047695655
+Testing on array of length 100000
+Time taken: 0.59486014
+Testing on worst case array of length 10
+Time taken: 1.1119E-4
+Testing on worst case array of length 100
+Time taken: 5.66712E-4
+Testing on worst case array of length 1000
+Time taken: 0.005990946
+Testing on worst case array of length 10000
+Time taken: 0.055335
+Testing on worst case array of length 100000
+Time taken: 0.67702854
+Testing on array of repeated elements of length 10
+Time taken: 7.226E-6
+Testing on array of repeated elements of length 100
+Time taken: 3.5208E-5
+Testing on array of repeated elements of length 1000
+Time taken: 2.96688E-4
+Testing on array of repeated elements of length 10000
+Time taken: 0.002574197
+Testing on array of repeated elements of length 100000
+Time taken: 0.026788255
+NOT STABLE
+----------SorterB END---------
+------------SorterC DATA--------------
+Testing on a sorted array of length 10
+Time taken: 5.8577E-5
+Testing on a sorted array of length 100
+Time taken: 2.94936E-4
+Testing on a sorted array of length 1000
+Time taken: 0.002114155
+Testing on a sorted array of length 10000
+Time taken: 0.031339847
+Testing on a sorted array of length 100000
+Time taken: 0.23005502
+Testing on an almost sorted array of length 10
+Time taken: 1.20711E-4
+Testing on an almost sorted array of length 100
+Time taken: 1.50037E-4
+Testing on an almost sorted array of length 1000
+Time taken: 0.004045978
+Testing on an almost sorted array of length 10000
+Time taken: 0.028208256
+Testing on an almost sorted array of length 100000
+Time taken: 0.22772995
+Testing on array of length 10
+Time taken: 6.401E-5
+Testing on array of length 100
+Time taken: 2.73627E-4
+Testing on array of length 1000
+Time taken: 0.002864014
+Testing on array of length 10000
+Time taken: 0.037083782
+Testing on array of length 100000
+Time taken: 0.41213116
+Testing on worst case array of length 10
+Time taken: 6.1529E-5
+Testing on worst case array of length 100
+Time taken: 1.21332E-4
+Testing on worst case array of length 1000
+Time taken: 0.002086592
+Testing on worst case array of length 10000
+Time taken: 0.024639005
+Testing on worst case array of length 100000
+Time taken: 0.23534718
+Testing on array of repeated elements of length 10
+Time taken: 1.0248E-5
+Testing on array of repeated elements of length 100
+Time taken: 1.17369E-4
+Testing on array of repeated elements of length 1000
+Time taken: 0.0012247
+Testing on array of repeated elements of length 10000
+Time taken: 0.015936203
+Testing on array of repeated elements of length 100000
+Time taken: 0.2142131
+STABLE
+----------SorterC END---------
+------------SorterD DATA--------------
+Testing on a sorted array of length 10
+Time taken: 7.2802E-5
+Testing on a sorted array of length 100
+Time taken: 4.10147E-4
+Testing on a sorted array of length 1000
+Time taken: 0.001412719
+Testing on a sorted array of length 10000
+Time taken: 0.006046961
+Testing on a sorted array of length 100000
+Time taken: 0.14081426
+Testing on an almost sorted array of length 10
+Time taken: 4.984E-6
+Testing on an almost sorted array of length 100
+Time taken: 2.9888E-5
+Testing on an almost sorted array of length 1000
+Time taken: 2.1123E-4
+Testing on an almost sorted array of length 10000
+Time taken: 0.002056917
+Testing on an almost sorted array of length 100000
+Time taken: 0.02090663
+Testing on array of length 10
+Time taken: 3.191E-5
+Testing on array of length 100
+Time taken: 2.0105E-5
+Testing on array of length 1000
+Time taken: 1.86846E-4
+Testing on array of length 10000
+Time taken: 0.002621379
+Testing on array of length 100000
+Time taken: 0.02758852
+Testing on worst case array of length 10
+Time taken: 6.074E-6
+Testing on worst case array of length 100
+Time taken: 1.7678E-5
+Testing on worst case array of length 1000
+Time taken: 2.55943E-4
+Testing on worst case array of length 10000
+Time taken: 0.002274258
+Testing on worst case array of length 100000
+Time taken: Error: 27511 is not bigger than 46417
+Not sorted properly!
+Testing on array of repeated elements of length 10
+Time taken: 1.991E-6
+Testing on array of repeated elements of length 100
+Time taken: 3.16E-6
+Testing on array of repeated elements of length 1000
+Time taken: 1.3159E-5
+Testing on array of repeated elements of length 10000
+Time taken: 1.22077E-4
+Testing on array of repeated elements of length 100000
+Time taken: 0.001148755
+NOT STABLE
+----------SorterD END---------
+------------SorterE DATA--------------
+Testing on a sorted array of length 10
+Time taken: 2.9806E-5
+Testing on a sorted array of length 100
+Time taken: 2.53336E-4
+Testing on a sorted array of length 1000
+Time taken: 0.010561599
+Testing on a sorted array of length 10000
+Time taken: 0.09076664
+Testing on a sorted array of length 100000
+Time taken: 8.168499
+Testing on an almost sorted array of length 10
+Time taken: 2.4587E-5
+Testing on an almost sorted array of length 100
+Time taken: 1.4386E-5
+Testing on an almost sorted array of length 1000
+Time taken: 8.04691E-4
+Testing on an almost sorted array of length 10000
+Time taken: 0.081907384
+Testing on an almost sorted array of length 100000
+Time taken: 8.159961
+Testing on array of length 10
+Time taken: 3.086E-6
+Testing on array of length 100
+Time taken: 3.508E-5
+Testing on array of length 1000
+Time taken: 9.23546E-4
+Testing on array of length 10000
+Time taken: 0.08673402
+Testing on array of length 100000
+Time taken: 10.875952
+Testing on worst case array of length 10
+Time taken: 2.529E-6
+Testing on worst case array of length 100
+Time taken: 2.0578E-5
+Testing on worst case array of length 1000
+Time taken: 9.91903E-4
+Testing on worst case array of length 10000
+Time taken: 0.089996055
+Testing on worst case array of length 100000
+Time taken: 8.716554
+Testing on array of repeated elements of length 10
+Time taken: 1.664E-6
+Testing on array of repeated elements of length 100
+Time taken: 2.3224E-5
+Testing on array of repeated elements of length 1000
+Time taken: 0.001201703
+Testing on array of repeated elements of length 10000
+Time taken: 0.10270279
+Testing on array of repeated elements of length 100000
+Time taken: 10.047067
+NOT STABLE
+----------SorterE END---------
+------------SorterF DATA--------------
+Testing on a sorted array of length 10
+Time taken: 3.0291E-5
+Testing on a sorted array of length 100
+Time taken: 2.5824E-5
+Testing on a sorted array of length 1000
+Time taken: 3.13581E-4
+Testing on a sorted array of length 10000
+Time taken: 6.85871E-4
+Testing on a sorted array of length 100000
+Time taken: 0.003899192
+Testing on an almost sorted array of length 10
+Time taken: 2.984E-5
+Testing on an almost sorted array of length 100
+Time taken: 1.71995E-4
+Testing on an almost sorted array of length 1000
+Time taken: 0.010402235
+Testing on an almost sorted array of length 10000
+Time taken: 0.18309264
+Testing on an almost sorted array of length 100000
+Time taken: 4.7979016
+Testing on array of length 10
+Time taken: 1.922E-6
+Testing on array of length 100
+Time taken: 7.0829E-5
+Testing on array of length 1000
+Time taken: 0.006861843
+Testing on array of length 10000
+Time taken: 0.90609604
+Testing on array of length 100000
+Time taken: 113.44803
+Testing on worst case array of length 10
+Time taken: 2.184E-6
+Testing on worst case array of length 100
+Time taken: 4.3497E-5
+Testing on worst case array of length 1000
+Time taken: 0.003954385
+Testing on worst case array of length 10000
+Time taken: 0.42724565
+Testing on worst case array of length 100000
+Time taken: 46.200493
+Testing on array of repeated elements of length 10
+Time taken: 1.614E-6
+Testing on array of repeated elements of length 100
+Time taken: 1.202E-6
+Testing on array of repeated elements of length 1000
+Time taken: 3.769E-6
+Testing on array of repeated elements of length 10000
+Time taken: 3.1112E-5
+Testing on array of repeated elements of length 100000
+Time taken: 3.14006E-4
+STABLE
+----------SorterF END---------
