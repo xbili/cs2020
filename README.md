@@ -1,7 +1,6 @@
 CS2020: Data Structures and Algorithms (Accelerated)
 ===
 
-All of my work done for this module, kept in a GitHub repository. :)
+Repository for all of my work done for this module. 
 
-To those who are currently taking this module, please do not copy directly from the answers. Work through the problem set on your own first!
-
+NOTE: There are certain issues with Problem Set 7 which I've yet to fix. (The deadlines killed me that week.)
